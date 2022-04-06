@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #519259;
+    padding: 20px 0;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MuiSvgIcon-root {
+    color: white;
+    width: 40px!important;
+    height: 40px!important;
+}
+
+nav > a {
+    color: white;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav > .active {
+   background-color: white;
+   color: #519259;
+   padding: 10px;
+   border-radius: 15px;
+}
